@@ -14,8 +14,8 @@ class VolumeControlApp:
         
         # Set window title & sizes
         self.master.title("Advanced Volume Control")
-        self.master.geometry("356x232")  # Ustawienie początkowego rozmiaru okna
-        self.master.resizable(width=False, height=False)  # Uniemożliwienie zmiany rozmiaru okna
+        self.master.geometry("356x232")  # Set start window size
+        self.master.resizable(width=False, height=False)  # Don't let the user resize the window
         
         # Add icon to window
         self.master.iconphoto(True, tk.PhotoImage(file="glosnik.png"))
